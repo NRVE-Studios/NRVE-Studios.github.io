@@ -1,0 +1,69 @@
+/* Fonts downloaded from google  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.logo1 {
+    width: 40%;
+}
+
+
+
+.btn {
+    margin-top: 15px;
+    width: 12%;
+    height: 55%;
+
+}
+
+.initialpanel {
+    height: 84vh;
+
+}
+
+.initialpanel2 {
+    padding-top: 250px;
+    padding-left: 150px;
+    width: 675px;
+}
+.projects{
+    /* padding-top: 250px; */
+    /* padding-left: 150px; */
+    /* width: 675px; */
+
+}
+.icons{
+    width: 35%;
+    padding-right: 8px;
+}
+.Project1{
+    width: 100%;
+    length: 100%;
+}
+.teams{
+    margin-left: 250px;
+}
+.teams-icon{
+    width: 10%;
+}
+.Team{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.error{
+    display: none;
+}
+.contact{
+    width: 80%;
+    margin-left: 250px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
