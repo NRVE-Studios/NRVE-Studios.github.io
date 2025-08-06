@@ -4,157 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/Style1.css">
-    <!-- <link rel="stylesheet" href="fontawesome-free-7.0.0-web/svgs/solid/house.svg"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>NRVE-Studios</title>
 </head>
 
-<body class="bg-secondary">
-    <div class="row m-3  g-0">
-        <div class="col">
-            <!-- <img class="logo1" src="SVG/NRVE Logo(no text).svg" alt=""> -->
-            <img class="logo1" src="SVG/NRVE logo(with text).svg" alt="">
-        </div>
-        <div class="col d-flex justify-content-around">
-            <button class="btn btn-danger">
-                <img class="icons" src="fontawesome-free-7.0.0-web/svgs/solid/house.svg" alt="">
-            </button>
-            <button class="btn btn-danger">
-                <img class="icons" src="fontawesome-free-7.0.0-web/svgs/solid/diagram-project.svg" alt="">
-            </button>
-            <button class="btn btn-danger">
-                <img class="icons" src="fontawesome-free-7.0.0-web/svgs/solid/people-group.svg" alt="">
-            </button>
-            <button class="btn btn-danger">
-                <img class="icons" src="fontawesome-free-7.0.0-web/svgs/solid/contact-book.svg" alt="">
-            </button>
-        </div>
-        <div class="g-0">
-            <div class="row initialpanel g-0">
-                <div class="col">
-                    <div class="initialpanel2">
-                        <h2>Every Pixel with Purpose</h2>
-                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae omnis
-                            deleniti labore ea architecto blanditiis ducimus mollitia, illum quas itaque commodi, ab
-                            laborum corporis sequi explicabo, cum velit minima.</p>
-                    </div>
-                </div>
-                <div class="col initialpanel2 bg-secondary">
-                    <img class="text-white" src="SVG/NRVE logo(with text).svg" alt="">
-                </div>
+<body>
+    <div class="container">
+        <div class="row navbar pt-5">
+            <div class="col-8">
+                <img class="nav-logo" src="SVG/NRVE logo(with text).svg" alt="">
+            </div>
+            <div class="nav-button col-4 d-flex justify-content-around">
+                <ul>
+                    <a href="#home" style="text-decoration: none; color: inherit;">
+                        <li style="--i:#a955ff;--j:#ea51ff">
+                            <span class="icon"><i class="fa-solid fa-house"></i></span>
+                            <span class="title">Home</span>
+                        </li>
+                    </a>
+                    <li style="--i:#56CCF2;--j:#2F80ED">
+                        <span class="icon"><i class="fa-solid fa-diagram-project"></i></span>
+                        <span class="title">Projects</span>
+                    </li>
+                    <li style="--i:#FF9966;--j:#FF5E62">
+                        <span class="icon"><i class="fa-solid fa-people-group"></i></span>
+                        <span class="title">Team</span>
+                    </li>
+                    <li style="--i:#80FF72;--j:#7EE8FA">
+                        <span class="icon"><i class="fa-solid fa-headset"></i></span>
+                        <span class="title">Contact us</span>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="col vh-100 g-0 ">
-        <div class="row d-flex justify-content-center m-5 h1">Projects</div>
-        <div class="row">
-            <div class="col ">
-                <div class="projects">
-                    <h1><img src="SVG/Pepsi logo.svg" alt=""></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam nihil neque ex earum quae
-                        rerum sunt libero reiciendis, quaerat, nam numquam hic inventore ut explicabo. Quis voluptatum
-                        accusantium ex.</p>
-                </div>
-            </div>
-            <div class="col">
-                <video id="myVideo" width="100%" height="75%" src="Meer's project files/1. Pepsi co_3.mp4" muted
-                    ></video>
-            </div>
+        <div id="home" class="d-flex justify-content-center  title-screen ">
+            <img class="d-flex justify-content-center Title-Screen-Animation grow-image"
+                src="SVG/NRVE Logo(no text).svg" alt="">
+            <img class="d-flex justify-content-center Title-Screen-Animation non-display"
+                src="SVG/NRVE logo(with text).svg" alt="">
         </div>
-        <div class="row">
-            <div class="col">
-                <video id="myVideo" width="100%" height="75%" src="Meer's project files/1. Pepsi co_3.mp4" muted
-                    ></video>
-            </div>
-            <div class="col ">
-                <div class="projects">
-                    <h1><img src="SVG/Pepsi logo.svg" alt=""></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam nihil neque ex earum quae
-                        rerum sunt libero reiciendis, quaerat, nam numquam hic inventore ut explicabo. Quis voluptatum
-                        accusantium ex.</p>
-                </div>
-            </div>
-        </div>
+        <div class="d-flex  flex-column justify-content-around align-content-center title-text">
 
-        <div class="row">
-            <div class="col ">
-                <div class="projects">
-                    <h1><img src="SVG/Pepsi logo.svg" alt=""></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam nihil neque ex earum quae
-                        rerum sunt libero reiciendis, quaerat, nam numquam hic inventore ut explicabo. Quis voluptatum
-                        accusantium ex.</p>
-                </div>
-            </div>
-            <div class="col">
-                <video id="myVideo" width="100%" height="75%" src="Meer's project files/1. Pepsi co_3.mp4" muted
-                    ></video>
-            </div>
+            <h2 class="line-1 anim-typewriter">Every pixel with purpose</h2>
+            <p class="w-75 line-1 anim-typewriter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur incidunt nobis laboriosam
+                quibusdam iure doloremque, ducimus fuga atque, optio sed consequatur, quidem ea sequi aspernatur
+                inventore quo corporis dolorum enim.</p>
         </div>
-
-        <div class="row">
-            <div class="col ">
-                <div class="Team">
-                    <h1><img class="teams-icon" src="fontawesome-free-7.0.0-web/svgs/brands/figma.svg" alt="">Web
-                        Developer and designer</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam nihil neque ex earum quae
-                        rerum sunt libero reiciendis, quaerat, nam numquam hic inventore ut explicabo. Quis voluptatum
-                        accusantium ex.</p>
-                </div>
-            </div>
-            <div class="col">
-                <!-- <video id="myVideo" width="100%" height="75%" src="Meer's project files/1. Pepsi co_3.mp4" muted playsinline></video> -->
-                <img class="w-50 teams" src="Team/Randomassnigga.jpg" alt="">
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col">
-                <!-- <video id="myVideo" width="100%" height="75%" src="Meer's project files/1. Pepsi co_3.mp4" muted playsinline></video> -->
-                <img class="w-50 teams" src="Team/Randomassnigga.jpg" alt="">
-            </div>
-            <div class="col ">
-                <div class="Team">
-                    <h1><img class="teams-icon" src="fontawesome-free-7.0.0-web/svgs/brands/figma.svg" alt="">Web
-                        Developer and designer</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam nihil neque ex earum quae
-                        rerum sunt libero reiciendis, quaerat, nam numquam hic inventore ut explicabo. Quis voluptatum
-                        accusantium ex.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col ">
-                <div class="Team">
-                    <h1><img class="teams-icon" src="fontawesome-free-7.0.0-web/svgs/brands/figma.svg" alt="">Web
-                        Developer and designer</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam nihil neque ex earum quae
-                        rerum sunt libero reiciendis, quaerat, nam numquam hic inventore ut explicabo. Quis voluptatum
-                        accusantium ex.</p>
-                </div>
-            </div>
-            <div class="col">
-                <!-- <video id="myVideo" width="100%" height="75%" src="Meer's project files/1. Pepsi co_3.mp4" muted playsinline></video> -->
-                <img class="w-50 teams" src="Team/Randomassnigga.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="row ">
-            <div class="container">
-                <div class="row contact">
-                    <div class="col"><img class="icons " src="fontawesome-free-7.0.0-web/svgs/brands/facebook.svg"
-                            alt=""></div>
-                    <div class="col"><img class="icons" src="fontawesome-free-7.0.0-web/svgs/brands/instagram.svg"
-                            alt=""></div>
-                    <div class="col"><img class="icons" src="fontawesome-free-7.0.0-web/svgs/brands/whatsapp.svg"
-                            alt=""></div>
-                    <div class="col"><img class="icons" src="fontawesome-free-7.0.0-web/svgs/brands/google.svg" alt="">
-                    </div>
-                    <div class="col"><img class="icons" src="fontawesome-free-7.0.0-web/svgs/solid/mail-reply.svg"
-                            alt=""></div>
-                </div>
-            </div>
-        </div>
-
+        
     </div>
 
 
@@ -163,8 +65,12 @@
 
 
 
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- <source src="JS files/Scripts.js"> -->
 </body>
 
-
 </html>
-
