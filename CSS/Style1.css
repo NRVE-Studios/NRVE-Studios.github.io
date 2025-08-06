@@ -137,10 +137,6 @@ ul li:hover .title {
     height: 40vh;
 }
 
-.Title-Screen-Animation{
-    /* width: 65%;   */
-
-}
 .grow-image {
   width: 200px; /* initial size */
   transition: transform 5s ease-in-out;
@@ -187,7 +183,7 @@ ul li:hover .title {
     opacity: 0;
     animation: title 0s 3.5s forwards;
     position: absolute;
-    padding-left: 350px;
+    /* padding-left: 250px; */
     
 }
 @keyframes title {
@@ -199,11 +195,11 @@ ul li:hover .title {
 .line-1{
     position: relative;
     top: 50%;  
-    width: 22em;
+    /* width: 22em; */
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
+    /* font-size: 180%; */
+    /* text-align: center; */
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);    
@@ -211,12 +207,12 @@ ul li:hover .title {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 10s steps(35) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 10s steps(20) 1s 1 normal both,
+             blinkTextCursor 500ms steps(20) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 22em;}
+  to{width: 12em;}
 
 }
 @keyframes blinkTextCursor{
