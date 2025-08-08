@@ -5,8 +5,42 @@ body {
     /* background: #7F00FA;
     background: linear-gradient(90deg, rgba(127, 0, 250, 1) 0%, rgba(69, 0, 138, 1) 42%, rgba(116, 247, 247, 1) 77%, rgba(0, 240, 175, 1) 100%); */
     background-color: #777;
+  }
+  
+  /* Font type add  */
+  .add-font{
     font-family: "Montserrat", sans-serif;
+    
 }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, 
+    #00F0AF, 
+    #7F00FA, 
+    #FF00A8, 
+    #00B2FF, 
+    #FFD600, 
+    #1a1a1a
+  );
+  background-size: 600% 600%; /* Big to allow smooth flow */
+  animation: gradientShift 80s ease infinite; /* Long smooth animation */
+}
+
+/* Smooth sliding keyframes */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -179,11 +213,11 @@ ul li:hover .title {
 }
  .title-text{
 
-    width: 67.5%;
+    width: 95%;
     opacity: 0;
     animation: title 0s 3.5s forwards;
     position: absolute;
-    /* padding-left: 250px; */
+    padding-top: 75px;
     
 }
 @keyframes title {
@@ -218,4 +252,20 @@ ul li:hover .title {
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+
+
+
+
+#projects{
+  /* border: solid 5px black; */
+  text-align: start;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.initial-page{
+  /* border: solid 5px #1a1a1a; */
+  height: 70vh;
 }

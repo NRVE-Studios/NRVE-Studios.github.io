@@ -15,23 +15,23 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row navbar pt-5">
-            <div class="col-8">
-                <img class="nav-logo" src="SVG/NRVE logo(with text).svg" alt="">
-            </div>
-            <div class="nav-button col-4 d-flex justify-content-around">
-                <ul>
-                    <a href="#home" style="text-decoration: none; color: inherit;">
+            <div class="col-8"><img class="nav-logo" src="SVG/NRVE logo(with text).svg" alt=""></div>
+            <div class="nav-button add-font col col-4 d-flex justify-content-around">
+                <ul><a href="#home" style="text-decoration: none; color: inherit;">
                         <li style="--i:#a955ff;--j:#ea51ff">
                             <span class="icon"><i class="fa-solid fa-house"></i></span>
                             <span class="title">Home</span>
                         </li>
                     </a>
-                    <li style="--i:#56CCF2;--j:#2F80ED">
-                        <span class="icon"><i class="fa-solid fa-diagram-project"></i></span>
-                        <span class="title">Projects</span>
-                    </li>
+                    <a href="#projects" style="text-decoration: none; color: inherit;">
+                        <li style="--i:#56CCF2;--j:#2F80ED">
+                            <span class="icon"><i class="fa-solid fa-diagram-project"></i></span>
+                            <span class="title">Projects</span>
+                        </li>
+                    </a>
+
                     <li style="--i:#FF9966;--j:#FF5E62">
                         <span class="icon"><i class="fa-solid fa-people-group"></i></span>
                         <span class="title">Team</span>
@@ -43,22 +43,28 @@
                 </ul>
             </div>
         </div>
-        <div id="home" class="d-flex justify-content-center  title-screen ">
-            <img class="d-flex justify-content-center Title-Screen-Animation grow-image"
+        <div class="initial-page">
+
+            <div id="home" class="d-flex justify-content-center  title-screen ">
+                <img class="d-flex justify-content-center Title-Screen-Animation grow-image"
                 src="SVG/NRVE Logo(no text).svg" alt="">
-            <img class="d-flex justify-content-center Title-Screen-Animation non-display"
+                <img class="d-flex justify-content-center Title-Screen-Animation non-display"
                 src="SVG/NRVE logo(with text).svg" alt="">
         </div>
-        <div class="d-flex  flex-column justify-content-around align-content-center title-text">
-
+        <div class=" d-flex flex-column justify-content-around align-content-center title-text">
             <h2 class="line-1 anim-typewriter">Every pixel with purpose</h2>
-            <p class="w-75 line-1 anim-typewriter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur incidunt nobis laboriosam
+            <p class="w-50 line-1 anim-typewriter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                incidunt nobis laboriosam
                 quibusdam iure doloremque, ducimus fuga atque, optio sed consequatur, quidem ea sequi aspernatur
                 inventore quo corporis dolorum enim.</p>
+            </div>
         </div>
-        
-    </div>
 
+
+            <div class="add-font vh-100" id="projects">
+                <h2>Projects</h2>
+            </div>
+        </div>
 
 
 
