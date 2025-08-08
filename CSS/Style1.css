@@ -13,6 +13,9 @@ body {
     
 }
 
+
+
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -22,24 +25,32 @@ body {
     #FF00A8, 
     #00B2FF, 
     #FFD600, 
-    #1a1a1a
+    #1a1a1a,
+    /* #00F0AF,  */
+    #7F00FA, 
+    #FF00A8
   );
-  background-size: 600% 600%; /* Big to allow smooth flow */
-  animation: gradientShift 80s ease infinite; /* Long smooth animation */
+  background-size: 200% 200%; /* Smaller pattern so more colors are visible at once */
+  animation: gradientShift 60s linear infinite; /* Long and smooth */
 }
 
-/* Smooth sliding keyframes */
+/* Smooth side-to-side motion */
 @keyframes gradientShift {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 0%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 100%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 0%;
   }
 }
+
+
+
+
+
 
 
 html {
